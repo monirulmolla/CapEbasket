@@ -1,0 +1,35 @@
+<div class="col-md-4 col-md-offset-4 color-grey">
+    <div class="col-md-12 padding-10">
+        <span><strong>Sign in E-Basket!</strong></span>
+    </div>
+    <form class="padding-10" [formGroup]="signInForm" (ngSubmit)="onSubmit()">
+
+
+        <div class="form-group">
+            <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    formControlName="email">
+
+            <input type="password"
+                   id="password"
+                   class="form-control"
+                   formControlName="password"
+                   placeholder="Password">
+
+            <button
+                    class="btn btn-primary width-100"
+                    type="submit"
+                    [disabled]="!signInForm.valid">Sign In</button>
+        </div>
+    </form>
+    <div class="col-md-12 pull-right">
+        <a (click)="onSignUp()">
+            <span class="pull-right padding-10">
+                Sign up
+            </span>
+        </a>
+    </div>
+</div>

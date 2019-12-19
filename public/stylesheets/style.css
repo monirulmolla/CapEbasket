@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  color: #00B7FF;
+  text-decoration: underline;
+}
+
+a.danger {
+  color: red;
+}
+
+.spacing {
+  margin-bottom: 20px;
+}
+.color-grey {
+  background-color: lightgray;
+}
+
+.bottom-touch {
+  position: absolute;
+  bottom: -106px;
+  right: 0px;
+}
+
+.padding-10{
+  padding:10px;
+}
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+/*Sign in form*/
+form {
+  border: 3px solid lightgray;
+}
+
+.width-100 {
+  width: 100%;
+}

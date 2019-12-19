@@ -1,0 +1,42 @@
+<div class="well col-md-10 col-md-offset-1"><strong>{{ currentCategory + 'Browse Categories'}}</strong></div>
+<section class="col-md-8 col-md-offset-1">
+    <div>
+        <div class="input-group">
+            <input [(ngModel)]="searchMe" type="text" class="form-control input-lg" placeholder="Search">
+            <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+        </div>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th colspan="3" class="text-right">{{totalItems + ' items'}}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor = "let product of (getCurrentProductType() | pfilter:searchMe:product)">
+            <td class="col-md-2"><img [src]="product.img_url"></td>
+            <td class="col-md-8"><strong>{{ product.name}}</strong><br>
+                {{ product.description}}
+            </td>
+            <td class="col-md-2">{{product.price | currency : 'INR': true}}<br>
+                <a (click)="onAddToBasket(product)">add to cart</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <div class="col-md-2">
+        <a (click)="onBasketClicked()">
+            <img src="/images/basket.jpg">
+            <span>
+            <small>
+                My Basket
+        {{totalItems + ' items'}}</small></span>
+        </a>
+    </div>
+</section>

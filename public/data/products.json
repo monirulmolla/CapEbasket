@@ -1,0 +1,136 @@
+{
+   "products" :{
+      "vegetables":[
+         {
+            "id":"1",
+            "img_url": "images/beans.jpg",
+            "name":"Beans",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":10.0
+         },
+         {
+            "id":"2",
+            "img_url": "images/brinjal.jpg",
+            "name":"Brinjal",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":9.0
+         },
+         {
+            "id":"3",
+            "img_url": "images/carrot.jpg",
+            "name":"Carrot",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":10
+         },
+         {
+            "id":"4",
+            "img_url": "images/capsicum.jpg",
+            "name":"Capsicum",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":2
+         },
+         {
+            "id":"5",
+            "img_url": "images/onion.jpg",
+            "name":"Onion",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":56
+         },
+         {
+            "id":"6",
+            "img_url": "images/beans.jpg",
+            "name":"Radish",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":45
+         }
+      ],
+      "fruits":[
+         {
+            "id":"1",
+            "img_url": "images/apple.jpg",
+            "name":"Apple",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":110.0
+         },
+         {
+            "id":"2",
+            "img_url": "images/orange.jpg",
+            "name":"Orange",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":45.0
+         },
+         {
+            "id":"3",
+            "img_url": "images/pineapple.jpg",
+            "name":"Pineapple",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":67.0
+         },
+         {
+            "id":"4",
+            "img_url": "images/grapes.jpg",
+            "name":"Grapes",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":56.0
+         },
+         {
+            "id":"5",
+            "img_url": "images/banana.jpg",
+            "name":"Banana",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":34.0
+         },
+         {
+            "id":"6",
+            "img_url": "images/guava.jpg",
+            "name":"Guava",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":45.0
+         }
+      ],
+      "grocery":[
+         {
+            "id":"1",
+            "img_url": "images/detergents.jpg",
+            "name":"Detergents",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":575.0
+         },
+         {
+            "id":"2",
+            "img_url": "images/cereal.jpg",
+            "name":"Cereal",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":122.0
+         },
+         {
+            "id":"3",
+            "img_url": "images/readytocook.jpg",
+            "name":"Ready to cook",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":87.0
+         },
+         {
+            "id":"4",
+            "img_url": "images/soap.jpg",
+            "name":"Soap",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":65.0
+         },
+         {
+            "id":"5",
+            "img_url": "images/toothpaste.jpg",
+            "name":"Tothpaste",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":89.0
+         },
+         {
+            "id":"6",
+            "img_url": "images/plates.jpg",
+            "name":"Plates",
+            "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "price":93.0
+         }
+      ]
+   }
+}

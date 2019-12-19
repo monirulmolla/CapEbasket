@@ -1,0 +1,58 @@
+{
+   "categories": [
+      {
+         "type": "Fruits",
+         "id": "fruits",
+         "products": [
+            {
+               "label": "Fresh Fruits",
+               "id": "freshFruits"
+            },
+            {
+               "label": "Herbs",
+               "id": "herbs"
+            },
+            {
+               "label": "Fresh Vegetable",
+               "id": "freshVegetable"
+            }
+         ]
+      },
+      {
+         "type": "Vegetables",
+         "id": "vegetables",
+         "products": [
+            {
+               "label": "Fresh Vegetables",
+               "id": "fresh"
+            },
+            {
+               "label": "Frozen Vegetables",
+               "id": "frozen"
+            },
+            {
+               "label": "Cut Vegetables",
+               "id": "cutvege"
+            }
+         ]
+      },
+      {
+         "type": "Groceries",
+         "id": "grocery",
+         "products": [
+            {
+               "label": "Detergents",
+               "id": "detergent"
+            },
+            {
+               "label": "Toilet/Floor cleaner",
+               "id": "herbs"
+            },
+            {
+               "label": "Breakfast Cereals",
+               "id": "cereals"
+            }
+         ]
+      }
+   ]
+}

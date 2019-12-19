@@ -1,0 +1,34 @@
+<div class="col-md-4 col-md-offset-4 color-grey">
+    <div class="col-md-12 padding-10">
+        <span><strong>Sign up E-Basket!</strong></span>
+    </div>
+    <form class="padding-10" [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <input
+                    type="text"
+                    id="userName"
+                    class="form-control"
+                    placeholder="User Name"
+                    formControlName="userName">
+
+            <input  type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    formControlName="email">
+
+            <input type="password"
+                   id="password"
+                   class="form-control"
+                   formControlName="password"
+                   placeholder="Password">
+            <span *ngIf = "formInvalid">
+                Please fill the form correctly
+            </span>
+            <button
+                    class="btn btn-primary width-100"
+                    type="submit"
+                    >Sign up</button>
+        </div>
+    </form>
+</div>

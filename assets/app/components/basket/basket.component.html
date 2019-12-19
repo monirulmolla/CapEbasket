@@ -1,0 +1,43 @@
+<div class="col-md-10 col-md-offset-1 row">
+    <section class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">Thank you for using E Basket</div>
+            <div class="panel-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor = "let item of myBasket">
+                            <td>{{ item.name}}</td>
+                            <td>{{ item.basketCount}}</td>
+                            <td>{{ item.basketPrice | currency : 'INR': true}}</td>
+                            <td><a (click) = "onRemoveBasketItem(item)">
+                                <span class="glyphicon glyphicon-remove"></span>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td><strong>Total</strong></td>
+                            <td><strong>{{ quantity}}</strong></td>
+                            <td><strong>{{totalPrice | currency: 'INR': true}}</strong></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="col-md-4">
+        <button type="button" (click)="onCheckout()" class="btn btn-primary btn-block"><span class ="glyphicon glyphicon-ok-sign"></span> Check out for payment</button>
+        <button type="button" (click) = "onBackToMart()" class="btn btn-default btn-block"><span class ="glyphicon glyphicon-menu-left"></span> back to Mart</button>
+        <button type="button" (click) ="onClearCart()" class="btn btn-danger btn-block"><span class="glyphicon glyphicon-trash"></span> clear cart</button>
+    </section>
+</div>
